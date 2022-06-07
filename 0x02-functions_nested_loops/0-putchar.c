@@ -1,28 +1,19 @@
 #include "main.h"
-
-
-
 /**
+ * main - check the code
  *
- *  * main - check the code
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
-
+ * Return: Always 0.
+ */
 int main(void)
 {
 char a[] = "_putchar";
 char *c;
-c=a;
+c = a;
 while (*c != '\0')
 {
-_putchar(*c)
+_putchar(*c);
 c++;
 }
-_putchar('\n)
+_putchar('\n');
 return (0);
 }
-		
