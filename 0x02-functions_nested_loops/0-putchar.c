@@ -1,33 +1,28 @@
 #include "main.h"
 
+
+
 /**
  *
- *  * main - prints the string "main" from a character array.
+ *  * main - check the code
  *
- *   * Return: 0 on success.
+ *   *
  *
- *    */
+ *    * Return: Always 0.
+ *
+ *     */
 
 int main(void)
-
 {
-
-		char c[] = "main";
-
-			int i;
-
-
-
-				for (i = 0; i < 9; i++)
-
-						{
-
-									_putchar(c[i]);
-
-										}
-
-					_putchar('\n');
-
-						return (0);
-
+char a[] = "_putchar";
+char *c;
+c=a;
+while (*c != '\0')
+{
+_putchar(*c)
+c++;
 }
+_putchar('\n)
+return (0);
+}
+		
